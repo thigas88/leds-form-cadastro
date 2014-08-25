@@ -191,7 +191,7 @@ header {
     top: 340px;
 }
 .map-point.third {
-    left: 1275px;
+    left: 1000px;
     top: 432px;
 }
 .map-point.last {
@@ -263,7 +263,7 @@ header {
     bottom: 53px;
     height: 55px;
     position: absolute;
-    right: -111px;
+    right: -76px;
     text-indent: -9999px;
     width: 55px;
 }

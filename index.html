@@ -43,6 +43,16 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <style type="text/css">
+    ul.ss-choices{
+    	list-style: none;
+    	margin: 0 0 10px 0;
+    }
+    .help-block{
+    	color: #fff;
+    }
+    </style>
 </head>
 
 <body>
@@ -94,129 +104,76 @@
             		<div class="span7 curse-form-box  animated delay5 flipInX">
             			<h3 class="nm text-center">Looking an <strong>Online Course</strong>?</h3>
             			<div class="cont">
-	            			<p class="text-center">Request <strong>FREE</strong> Information of Courses, Admission &amp; Fees</p>
-	            			<form id="curse-form" class="nm" action="http://edutime.coralixthemes.com/blue/index_submit" method="post">
-	            				
-	            				<div  id="loading" style="display: none" class='alert'>
-					  				<a class='close' data-dismiss='alert'>×</a>
-					  				Loading
-								</div>
-								<div id="response"></div>
-								
-	            				<div class="row-fluid">
-                            		<div class="span6">
-                                		<input class="input-large" type="text" required placeholder="Nome" name="firstname" />
-                                	</div>
-                                	<div class="span6">
-                                	    <input class="input-large" type="text" required placeholder="Sobrenome" name="lastname" />
-                               	    </div>
-                                </div>				  
-	            				<div class="row-fluid">
-                            		<div class="span6">
-                                		<input class="input-large" type="email" required placeholder="Email" name="email" />
-                                	</div>
-                                	<div class="span6">
-                                	    <input class="input-large" type="number" required placeholder="Age in years" name="age" />
-                               	    </div>
-                                </div>				  
-	            				<div class="row-fluid">
-                            		<div class="span6">
-                                		
-                                		<select class="input-large" name="program">
-                                			<option>Select degree program</option>
-                                			<option>Option</option>
-                                			<option>Option</option>
-                                			<option>Option</option>
-                                			<option>Option</option>
-                                		</select>
-                                		
-                                	</div>
-                                	<div class="span6">
-                                	    <select class="input-large" name="education">
-                                	    	<option>Level of Education</option>
-                                			<option>Option</option>
-                                			<option>Option</option>
-                                			<option>Option</option>
-                                			<option>Option</option>
-                                	    </select>
-                               	    </div>
-                                </div>				  
-	            				<div class="row-fluid">
-                            		<div class="span12">
-										<textarea class="input-large" name="comments" rows="8" cols="40" placeholder="Cuestions / Comments"> </textarea>
-                               	    </div>
-                                </div>
-                                <div class="row-fluid">
-                            		<div class="span12 text-center">
-										<input class="btn btn-large btn-primary" type="submit" name="some_name" value="request information" id="some_name"/>
-                               	    </div>
-                                </div>  
-
-							</form>
+	            			<p class="text-center">Queremos que dedique alguns minutos para nos dar algumas informações sobre você e sua família que nos permitirão melhor conhecê-lo e ajudá-lo. Deus o abençoe! :)</p>
+	            			
 
 							<script type="text/javascript">var submitted=false;</script>
 		<iframe name="hidden_iframe" id="hidden_iframe"
 		style="display:none;" onload="if(submitted)
-		{window.location='http://YOUR-THANK-YOU-PAGE-URL';}"></iframe>
+		{window.location='obrigado.html';}"></iframe>
 		<form action="https://docs.google.com/forms/d/1x8xQhi4lTEqREBfejRSZngtQ_M_2aEUQ12G8SkQV_Rs/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 
-		<form action="https://docs.google.com/forms/d/1x8xQhi4lTEqREBfejRSZngtQ_M_2aEUQ12G8SkQV_Rs/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
-
+		
 		<div role="list" class="ss-question-list" style="padding-left: 0">
 <div class="errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item  ss-section-header"><div class="ss-form-entry">
-<h2 class="ss-section-title">Dados Pessoais</h2>
 <div class="ss-section-description ss-no-ignore-whitespace"></div>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
 
-<input type="text" name="entry.1624672891" value="" class="ss-q-short input-large" id="entry_1624672891" dir="auto" aria-label="Nome  " aria-required="true" required title="" placeholder="Nome completo">
+<label class="ss-q-item-label" for="entry_1624672891"><div class="ss-q-title">Nome completo</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+
+<input type="text" name="entry.1624672891" value="" class="ss-q-short input-large" id="entry_1624672891" dir="auto" aria-label="Nome  " aria-required="true" required title="" >
 <div class="error-message" id="381727512_errorMessage"></div>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
 
-<input type="text" name="entry.385033388" value="" class="ss-q-short input-large" id="entry_385033388" dir="auto" aria-label="Apelido  " title="" placeholder="Apelido">
+<label class="ss-q-item-label" for="entry_385033388"><div class="ss-q-title">Apelido</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+
+<input type="text" name="entry.385033388" value="" class="ss-q-short input-large" id="entry_385033388" dir="auto" aria-label="Apelido  " title="" >
 <div class="error-message" id="1576712839_errorMessage"></div>
 
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item ss-item-required ss-date"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_1266957205"><div class="ss-q-title">Data de Nascimento
-
-</div>
+<label class="ss-q-item-label" for="entry_1266957205"><div class="ss-q-title">Data de Nascimento</div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<input type="date" name="entry.1266957205" value="" class="ss-q-date" dir="auto" id="entry_1266957205" aria-label="Data de Nascimento  " aria-required="true" required="">
+<input type="date" name="entry.1266957205" value="" class="ss-q-date" dir="auto" id="entry_1266957205" aria-label="Data de Nascimento" required aria-required="true" required="">
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
 <label class="ss-q-item-label" for="entry_675436352"><div class="ss-q-title">Idade
 
 </div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<input type="number" name="entry.675436352" value="" class="ss-q-short input-large" id="entry_675436352" dir="auto" aria-label="Idade  " aria-required="true" required="" title="">
+<input type="number" name="entry.675436352" value="" class="ss-q-short input-large" id="entry_675436352" dir="auto" aria-label="Idade" required aria-required="true" required="" title="">
 <div class="error-message" id="1727452725_errorMessage"></div>
 
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
+
 <label class="ss-q-item-label" for="entry_222170817"><div class="ss-q-title">RG
+
 </div>
-<div class="ss-q-help ss-secondary-text" dir="ltr">Documento será utilizado para emitir autorização de viagens intermunicipais.</div></label>
-<input type="text" name="entry.222170817" value="" class="ss-q-short input-large" id="entry_222170817" dir="auto" aria-label="RG Documento será utilizado para emitir autorização de viagens intermunicipais. " title="">
-<div class="error-message" id="1426364901_errorMessage"></div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+
+<input type="text" name="entry.222170817" value="" class="ss-q-short input-large" id="entry_222170817" dir="auto" aria-label="RG Documento será utilizado para emitir autorização de viagens intermunicipais. " required title="">
+<p class="help-block">Documento será utilizado para emitir autorização de viagens intermunicipais.</p>
 
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
 <label class="ss-q-item-label" for="entry_625815948"><div class="ss-q-title">CPF
 </div>
-<div class="ss-q-help ss-secondary-text" dir="ltr">Documento será utilizado para emitir autorização de viagens intermunicipais.</div></label>
-<input type="text" name="entry.625815948" value="" class="ss-q-short input-large" id="entry_625815948" dir="auto" aria-label="CPF Documento será utilizado para emitir autorização de viagens intermunicipais. " title="">
-<div class="error-message" id="914763119_errorMessage"></div>
-
+</label>
+<input type="text" name="entry.625815948" value="" class="ss-q-short input-large" id="entry_625815948" dir="auto" aria-label="CPF Documento será utilizado para emitir autorização de viagens intermunicipais. " required  maxlength="11" title="">
+<p class="help-block">Documento será utilizado para emitir autorização de viagens intermunicipais.</p>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_2114051132"><div class="ss-q-title">Numero de telefone
+<label class="ss-q-item-label" for="entry_2114051132"><div class="ss-q-title">Número de telefone
 
 </div>
-<div class="ss-q-help ss-secondary-text" dir="ltr">Ex.: (38) 9999-4321/ (38) 3222-4321</div></label>
-<input type="text" name="entry.2114051132" value="" class="ss-q-short input-large" id="entry_2114051132" dir="auto" aria-label="Numero de telefone Ex.: (38) 9999-4321/ (38) 3222-4321 " aria-required="true" required="" title="">
+</label>
+<input type="text" name="entry.2114051132" value="" class="ss-q-short input-large" id="entry_2114051132" dir="auto" aria-label="Numero de telefone Ex.: (38) 9999-4321/ (38) 3222-4321 " aria-required="true" required title="" placeholder="(38) 9999-9999" >
 <div class="error-message" id="106032412_errorMessage"></div>
 
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
@@ -230,18 +187,18 @@
 
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_1368916436"><div class="ss-q-title">e-mail
+<label class="ss-q-item-label" for="entry_1368916436"><div class="ss-q-title">E-mail
 </div>
-<div class="ss-q-help ss-secondary-text" dir="ltr"><a href="mailto:exemplo@email.com">exemplo@email.com</a></div></label>
-<input type="text" name="entry.1368916436" value="" class="ss-q-short input-large" id="entry_1368916436" dir="auto" aria-label="e-mail exemplo@email.com " title="">
+</label>
+<input type="email" name="entry.1368916436" value="" class="ss-q-short input-large" id="entry_1368916436" dir="auto" aria-label="e-mail exemplo@email.com " placeholder="exemplo@email.com" title="" required>
 <div class="error-message" id="516855786_errorMessage"></div>
 
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
 <label class="ss-q-item-label" for="entry_1075159768"><div class="ss-q-title">Facebook
 </div>
-<div class="ss-q-help ss-secondary-text" dir="ltr">e-mail do face</div></label>
-<input type="text" name="entry.1075159768" value="" class="ss-q-short input-large" id="entry_1075159768" dir="auto" aria-label="Facebook e-mail do face " title="">
+</label>
+<input type="text" name="entry.1075159768" value="" class="ss-q-short input-large" id="entry_1075159768" dir="auto" aria-label="facebook.com/seunome" placeholder="facebook.com/seunome" title="">
 <div class="error-message" id="1833402581_errorMessage"></div>
 
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
@@ -276,11 +233,11 @@
 
 </div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<select name="entry.1148096735" id="entry_1148096735" aria-label="Escolaridade  " aria-required="true" required=""><option value=""></option>
+<select name="entry.1148096735" id="entry_1148096735" aria-label="Escolaridade  " aria-required="true" required><option value=""></option>
 <option value="Fundamental em curso">Fundamental em curso</option> <option value="Médio em curso">Médio em curso</option> <option value="Médio Completo">Médio Completo</option> <option value="Superior em curso">Superior em curso</option> <option value="Parou de estudar">Parou de estudar</option></select>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
-<label class="ss-q-item-label" for="entry_2056036065"><div class="ss-q-title">Fez ou faz algum curso profissionalizante ou tecnico? Em qual instituição?
+<label class="ss-q-item-label" for="entry_2056036065"><div class="ss-q-title">Possui curso profissionalizante ou técnico? Em qual instituição?
 </div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
 <input type="text" name="entry.2056036065" value="" class="ss-q-short input-large" id="entry_2056036065" dir="auto" aria-label="Fez ou faz algum curso profissionalizante ou tecnico? Em qual instituição?  " title="">
@@ -300,7 +257,7 @@
 <div class="error-message" id="1839743915_errorMessage"></div>
 </div></div></div> <div class="errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item  ss-section-header"><div class="ss-form-entry">
-<h2 class="ss-section-title">Dados Familiares</h2>
+<h2 class="ss-section-title"> &nbsp;</h2>
 <div class="ss-section-description ss-no-ignore-whitespace">Obs: Caso o pai, a mãe ou ambos seja(m) falecido(s), favor informar entre parênteses (in memoriam).</div>
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
 <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
@@ -308,7 +265,7 @@
 
 </div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<input type="text" name="entry.178309042" value="" class="ss-q-short input-large" id="entry_178309042" dir="auto" aria-label="Nome da Mãe  " aria-required="true" required="" title="">
+<input type="text" name="entry.178309042" value="" class="ss-q-short input-large" id="entry_178309042" dir="auto" aria-label="Nome da Mãe  " aria-required="true" required title="">
 <div class="error-message" id="671876394_errorMessage"></div>
 
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
@@ -317,7 +274,7 @@
 
 </div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<input type="text" name="entry.40990302" value="" class="ss-q-short input-large" id="entry_40990302" dir="auto" aria-label="Telefone da Mãe  " aria-required="true" required="" title="">
+<input type="text" name="entry.40990302" value="" class="ss-q-short input-large" id="entry_40990302" dir="auto" aria-label="Telefone da Mãe  " aria-required="true"  title="">
 <div class="error-message" id="1040117275_errorMessage"></div>
 
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
@@ -355,7 +312,7 @@
 
 </div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<input type="text" name="entry.1685701585" value="" class="ss-q-short input-large" id="entry_1685701585" dir="auto" aria-label="Nome do Pai  " aria-required="true" required="" title="">
+<input type="text" name="entry.1685701585" value="" class="ss-q-short input-large" id="entry_1685701585" dir="auto" aria-label="Nome do Pai  " aria-required="true" title="">
 <div class="error-message" id="223168232_errorMessage"></div>
 
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
@@ -364,7 +321,7 @@
 
 </div>
 <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
-<input type="text" name="entry.266690535" value="" class="ss-q-short input-large" id="entry_266690535" dir="auto" aria-label="Telefone do Pai  " aria-required="true" required="" title="">
+<input type="text" name="entry.266690535" value="" class="ss-q-short input-large" id="entry_266690535" dir="auto" aria-label="Telefone do Pai  " aria-required="true"  title="">
 <div class="error-message" id="1182955125_errorMessage"></div>
 
 </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
@@ -404,10 +361,15 @@
 <input type="hidden" name="fbzx" value="-8508904564310738223">
 
 <div class="ss-item ss-navigate">
-<input type="submit" name="submit" value="Enviar" id="ss-submit">
+<input class="btn btn-large btn-primary" type="submit" name="submit" value="Enviar dados" id="ss-submit">
+
+</div>
 
 
-</div></div>
+
+
+
+</div>
 </form>
 
 
